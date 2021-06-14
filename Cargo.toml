@@ -1,0 +1,14 @@
+[package]
+name = "bad_apple"
+version = "0.1.0"
+authors = ["Jean <48181581+0xBEE@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rodio = "*"
+pbr = "*"
+opencv = { version = "0.53.0", features = ["clang-runtime"] }
+asciifyer = "0.1.1"
+fps_clock = "2.0.0"
